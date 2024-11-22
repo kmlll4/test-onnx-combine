@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-onnx-combine"
+version = "0.1.0"
+description = ""
+authors = ["kmlll4 <develop@kmworks-lll4.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+onnx = "^1.17.0"
+onnxruntime = "^1.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,9 @@
+*.onnx
+*.pt
+
+*.lock
+
+__pycache__/
+
+pytorch/
+vision/
